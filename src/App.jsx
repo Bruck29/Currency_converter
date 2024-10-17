@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import ConversionResult from "./Components/ConversionResult";
 import CurrencySelector from "./Components/CurrencySelector";
 import AmountInput from "./Components/AmountInput";
+import ConversionResult from "./Components/ConversionResult";
 import { Line } from "react-chartjs-2"; // Import Line chart from Chart.js
 import {
   Chart as ChartJS,
